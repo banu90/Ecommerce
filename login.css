@@ -1,0 +1,345 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(176, 168, 170);
+}
+
+.container
+{
+    margin: 0 auto;
+    width: 310px;
+    margin-top: 150px;
+border: 2px solid rgb(12, 1, 5);
+}
+
+.tabs
+{
+    display: flex;
+    width: 90%;
+    background-color: rgb(181, 210, 110);
+    padding: 10px;
+    
+    text-align: center;
+    border: 2px solid #880357;
+    position: relative;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    cursor: pointer;
+}
+
+.scontainer
+{
+    width: 97%;
+    height: 300px;
+    background-color: rgb(149, 228, 244);
+    border: 2px solid rgb(51, 1, 1);
+}
+
+input
+{
+    display: block;
+    width: 250px;
+    margin: 10px 13px;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+input[type="submit"]
+{
+    width: 275px;
+}
+
+.comm
+{
+    position: absolute;
+    visibility: hidden;
+}
+
+#login
+{
+    visibility: visible;
+}
+.fp{
+    text-decoration: underline;
+    margin-left:  10px;
+    cursor: pointer;
+    color: rgb(63, 90, 225);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form{
+    border: 2px solid orange;;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 40%; top: 30%
+}
+.emailbutt, .passbutt{
+    margin: 20px;
+}
+
+
+.banner-card{
+    position: relative;
+    height: 100vh;
+}
+   
+.button{
+ margin-left: 30%;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:350px) and (max-width:449px) 
+ {
+
+    body{
+        background-image: url(bg1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }    
+    form{
+        border: 2px solid orange;;
+        border-radius: 10px;
+        position: absolute;
+        top: 25%;
+        left: 15%; 
+    }
+
+    .banner-card{
+        position:relative;
+        height: 100vh;
+    }
+    .button{
+     margin-left: 30%;
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+
+ }
+
+@media screen and (min-width:450px) and (max-width:550px) 
+ {
+    body{
+        background-image: url(bg1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    form{
+        border: 2px solid orange;;
+        border-radius: 10px;
+        position: absolute;
+        top: 27%;
+        left: 16%; 
+    }
+
+    .banner-card{
+        position:relative;
+        height: 100vh;
+    }
+    .button{
+     margin-left: 30%;
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+
+ }
+
+
+ @media screen and (min-width:551px)  and (max-width:700px)
+ {
+    body{
+        background-image: url(bg3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+ 
+     form{
+         border: 2px solid orange;;
+         border-radius: 10px;
+         position: absolute;
+         top: 25%;
+         left: 27%; 
+     }
+     
+     .banner-card{
+         position:relative;
+         height: 100vh;
+     }
+     .button{
+      margin-left: 30%;
+     }
+     .bottom{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+     }
+ 
+ 
+ 
+ }
+
+ @media screen and (min-width:701px)  and (max-width:900px)
+ {
+    body{
+        background-image: url(bg4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+ 
+     form{
+         border: 2px solid orange;;
+         border-radius: 10px;
+         position: absolute;
+         top: 30%;
+         left: 30%; 
+     }
+     
+     .banner-card{
+         position:relative;
+         height: 100vh;
+     }
+     .button{
+      margin-left: 30%;
+     }
+     .bottom{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+     }
+ 
+ 
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{margin: 0;
+    padding: 0;
+    }
+    body{
+        background-color: rgb(96, 222, 203);
+    }
+    .container
+    {
+        margin: 0 auto;
+        width: 310px;
+        margin-top: 200px;
+        border: 2px solid blue;
+    }
+    .tabs{
+        display: flex;
+        width: 90%;
+        background-color:rgb(223, 148, 163);
+        padding: 10px;
+        float: left;
+        text-align: center;
+        border: 2px solid #ffff;
+        position: relative;
+        font-size: 20px;
+        color: rgb(51, 0, 255);
+        cursor: pointer;
+        
+    }
+    .scontainer{
+        width: 97%;
+        height: 350px;
+        background-color: rgb(161, 235, 88);
+        margin-top: 70px;
+    }
+    input
+    {
+        display: block;
+        width: 250px;
+        margin: 30px 15px;
+        padding: 10px;
+        font-size: 15px;
+        color: black;
+    }
+    input[type="submit"]
+    {
+        width: 273px;
+    }
+    .common{
+        position: absolute;
+        visibility: hidden;
+    }
+    .common:hover{
+        font-weight: 300;
+        cursor: pointer;
+    }
+    #login
+    {
+        visibility: visible;
+    } */ 

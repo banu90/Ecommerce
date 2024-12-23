@@ -1,0 +1,122 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family:'Courier New', Courier, monospace;
+}
+#navbar
+{
+    position: sticky;  
+    background-color: rgba(226, 230, 203, 0.952);
+}
+#navbar .navbar-brand{
+    color:rgb(1, 9, 3) !important;
+    font-weight: 900;
+    font-size: 40px;
+}
+#navbarSupportedContent a
+{
+    color: rgb(1, 9, 17);
+    font-size: 25px;
+}
+#navbarSupportedContent a:hover
+{
+    color:blue;
+    font-size:larger;
+}
+#navbarSupportedContent button{
+    color:blue;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#home p{
+    color: white;
+    font-size:30px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+#home
+{
+    background-image:url(spicesimg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+#home h1{
+    color: white;
+    font-size: 100px;
+    letter-spacing: 3px;
+}
+
+.signin{
+    background-color: green !important;
+    color:white !important;
+    border-radius: 2px;
+}
+#about{
+    background: rgb(241,16,51);
+    background: radial-gradient(circle, rgba(241,16,51,0.6279761904761905) 35%, rgba(255,0,35,0.9473039215686274) 100%);
+}
+#about h1 {
+    color: white;
+    font-size: 100px;
+    letter-spacing: 3px;
+}
+#about p{
+    color: white;
+    font-size: medium;
+}
+#products{
+    background:#e5e5e2;
+}
+#products h1{
+    color: rgb(215, 8, 8);
+    font-size: 100px;
+    letter-spacing: 3px;
+}
+#products img{
+    width: 300px;
+    height: 250px;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    gap:initial;
+    background: white !important;
+    border: none !important;
+    box-shadow: 15px  20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+    border-radius: 2px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
+.card:hover{
+    box-shadow: inset 5px  5px 10px rgba(0,0,0,.3),
+                inset -10px 10px white;
+    transition: .2s;
+
+}
+#contact{
+    background:#e5e5e2;
+}
+#contact h1{
+    color: rgb(215, 8, 8);
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+ #contact .container form{
+    height: 100;
+    width: 100;
+    margin-bottom:100px;
+    align-items: end;
+}
